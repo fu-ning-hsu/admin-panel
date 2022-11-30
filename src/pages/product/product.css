@@ -1,0 +1,131 @@
+.product {
+    flex: 4;
+    padding: 1em;
+}
+
+.productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productAddBtn {
+    width: 80px;
+    border: none;
+    padding: .5em;
+    background-color: teal;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.productTop {
+    display: flex;
+}
+
+.productTopLeft,
+.productTopRight {
+    flex: 1;
+}
+
+.productTopRight {
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 2px 15px -10px rgba(0, 0, 0 );
+}
+
+.productInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1em;
+}
+
+.productInfoTop {
+    display: flex;
+    align-items: center;
+}
+
+.productName {
+    font-weight: 600;
+}
+
+.productInfoBottom {
+    margin-top: .8em;
+}
+
+.productInfoItem {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productInfoValue {
+    font-weight: 300;
+}
+
+.productBottom {
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 2px 15px -10px rgba(0, 0, 0 );
+}
+
+.productForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productFormLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.productFormLeft>label {
+    margin-bottom: 1em;
+    color: gray;
+}
+
+.productFormLeft>input {
+    font-size: 1rem;
+    margin-bottom: 1em;
+    border: none;
+    padding: .3em;
+    border-bottom: 1px solid gray;
+}
+
+.productFormLeft>select {
+    margin-bottom: 1em;
+    font-size: 1rem;
+}
+
+.productUploadImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 1em;
+}
+
+.productFormRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.productUpload {
+    display: flex;
+    align-items: center;
+}
+
+.productBtn {
+    border: none;
+    padding: .5em;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
